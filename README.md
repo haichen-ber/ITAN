@@ -7,7 +7,8 @@ Install the necessary dependencies following [AOF](https://github.com/code-roame
 ## 💾 Run
 ```bash
     NCCL_DEBUG=INFO CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python -m torch.distributed.launch --nproc_per_node=8 --master_port=29506  baselines/attack_scripts/untarget_ITAN_attack.py --test_batch_size 35
-    ```
+ ```
+
 ## 📚 Acknowledgement
 Many thanks to these excellent projects:
 - [AOF](https://github.com/code-roamer/AOF)
