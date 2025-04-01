@@ -16,6 +16,7 @@ Many thanks to these excellent projects:
 - [PU-Net](https://github.com/lyqun/PU-Net_pytorch), [DUP-Net](https://github.com/RyanHangZhou/DUP-Net)
 - [ONet](https://github.com/autonomousvision/occupancy_networks), [ConvONet](https://github.com/autonomousvision/convolutional_occupancy_networks)
 - [IF-Defense](https://github.com/Wuziyi616/IF-Defense)
+- [PCT](https://github.com/Strawberry-Eat-Mango/PCT_Pytorch)
 
 ## 📝 Citation
 
