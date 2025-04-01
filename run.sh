@@ -1,0 +1,1 @@
+NCCL_DEBUG=INFO CUDA_VISIBLE_DEVICES=$1,$3,$4,$5,$7 nohup python -m torch.distributed.launch --nproc_per_node=5 --master_port=29053 baselines/attack_scripts/Untarget_arpre_attack.py --attack_methods advpc --epsilon 0.18 --model pointconv --test_batch_size 40 >> 2.txt 2>&1 &

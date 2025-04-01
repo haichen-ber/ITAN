@@ -1,0 +1,20 @@
+ninja_required_version = 1.3
+cxx = c++
+
+cflags = -pthread -B /home/lbb/anaconda3/envs/SVD-PN2/compiler_compat -Wl,--sysroot=/ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Isrc/utils/libsimplify -I/home/lbb/anaconda3/envs/SVD-PN2/lib/python3.7/site-packages/numpy/core/include -I/home/lbb/anaconda3/envs/SVD-PN2/lib/python3.7/site-packages/numpy/core/include -I/home/lbb/anaconda3/envs/SVD-PN2/include/python3.7m -c
+post_cflags = -DTORCH_API_INCLUDE_EXTENSION_H -DTORCH_EXTENSION_NAME=simplify_mesh -D_GLIBCXX_USE_CXX11_ABI=0 -std=c++14
+ldflags = 
+
+rule compile
+  command = $cxx -MMD -MF $out.d $cflags -c $in -o $out $post_cflags
+  depfile = $out.d
+  deps = gcc
+
+
+
+build /home/lbb/DLProjects/IF-Defense/ConvONet/build/temp.linux-x86_64-3.7/src/utils/libsimplify/simplify_mesh.o: compile /home/lbb/DLProjects/IF-Defense/ConvONet/src/utils/libsimplify/simplify_mesh.cpp
+
+
+
+
+

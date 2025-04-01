@@ -1,0 +1,6 @@
+# ninja log v5
+1	198	1639635058	/home/lbb/DLProjects/IF-Defense/ConvONet/build/temp.linux-x86_64-3.8/src/utils/libmcubes/marchingcubes.o	c9cbf274a38cbc93
+0	967	1639635059	/home/lbb/DLProjects/IF-Defense/ConvONet/build/temp.linux-x86_64-3.8/src/utils/libmcubes/pywrapper.o	22d2c09d084a30d9
+0	1214	1639635059	/home/lbb/DLProjects/IF-Defense/ConvONet/build/temp.linux-x86_64-3.8/src/utils/libmcubes/mcubes.o	cd9543ad4e98902b
+0	4725	1639635064	/home/lbb/DLProjects/IF-Defense/ConvONet/build/temp.linux-x86_64-3.8/src/utils/libmise/mise.o	d9dbc4a9b59771e8
+0	5262	1639635070	/home/lbb/DLProjects/IF-Defense/ConvONet/build/temp.linux-x86_64-3.8/src/utils/libsimplify/simplify_mesh.o	1102dff0bb5fdd4b
